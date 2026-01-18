@@ -27,7 +27,7 @@
 - **Remediation Guide** - Fix recommendations
 
 ## 📸 Screenshot Preview
-![XCP-XSS-PRO In Action](asset/preview.png)
+![XCP-XSS-PRO In Action](asset/asset.png)
 
 ## 🚀 Quick Start
 
