@@ -36,7 +36,7 @@ init(autoreset=True)
 class XSS_Commander_Pro:
     def __init__(self):
         self.version = "2.0"
-        self.author = "Security Researcher"
+        self.author = "SEppkaScurty-CPU"
         self.session = requests.Session()
         self.ua = UserAgent()
         self.session.headers.update({'User-Agent': self.ua.random})
