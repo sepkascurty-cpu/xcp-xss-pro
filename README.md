@@ -27,7 +27,7 @@
 - **Remediation Guide** - Fix recommendations
 
 ## 📸 Screenshot Preview
-![XCP-XSS-PRO In Action](asset/asset.png)
+![XCP-XSS-PRO In Action](assets/asset.png)
 
 ## ⚠️ Disclaimer
 **Program ini dibuat hanya untuk tujuan pendidikan dan pengujian penetrasi yang legal.** Penulis (sepkascurty-cpu) tidak bertanggung jawab atas penyalahgunaan atau kerusakan yang disebabkan o>
