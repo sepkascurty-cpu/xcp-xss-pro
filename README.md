@@ -26,6 +26,9 @@
 - **Risk Assessment** - CVSS-like scoring
 - **Remediation Guide** - Fix recommendations
 
+## 📸 Screenshot Preview
+![XCP-XSS-PRO In Action](asset/preview.png)
+
 ## 🚀 Quick Start
 
 ### Installation
