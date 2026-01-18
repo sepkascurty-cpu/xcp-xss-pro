@@ -1,0 +1,6 @@
+{
+    "timeout": 10,
+    "max_threads": 10,
+    "user_agent": "random",
+    "output_dir": "./xcp_reports"
+}

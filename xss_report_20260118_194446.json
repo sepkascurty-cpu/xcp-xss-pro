@@ -1,0 +1,10 @@
+{
+    "scan_date": "2026-01-18T19:44:46.958040",
+    "target": "http://localhost/DVWA/vulnerabilities/xss_d/?default=English",
+    "scanner": "XSS Commander Pro v2.0",
+    "vulnerabilities": [],
+    "summary": {
+        "total": 0,
+        "by_type": {}
+    }
+}

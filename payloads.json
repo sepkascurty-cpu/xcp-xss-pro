@@ -1,0 +1,9 @@
+{
+    "custom": {
+        "custom_payloads": [
+            "<script>console.log('XSS_DEBUG')</script>",
+            "<img src=x onerror=console.error('XSS')>",
+            "<svg onload=console.warn('SVG_XSS')>"
+        ]
+    }
+}
