@@ -29,6 +29,14 @@
 ## 📸 Screenshot Preview
 ![XCP-XSS-PRO In Action](asset/asset.png)
 
+## ⚠️ Disclaimer
+**Program ini dibuat hanya untuk tujuan pendidikan dan pengujian penetrasi yang legal.** Penulis (sepkascurty-cpu) tidak bertanggung jawab atas penyalahgunaan atau kerusakan yang disebabkan o>
+
+**Gunakan dengan bijak dan etis!**
+
+---
+
+
 ## 🚀 Quick Start
 
 ### Installation
@@ -45,11 +53,3 @@ chmod +x install_xcp.sh
 pip3 install -r requirements.txt
 chmod +x xcp.py
 
----
-
-## ⚠️ Disclaimer
-**Program ini dibuat hanya untuk tujuan pendidikan dan pengujian penetrasi yang legal.** Penulis (sepkascurty-cpu) tidak bertanggung jawab atas penyalahgunaan atau kerusakan yang disebabkan oleh program ini. Segala aktivitas ilegal yang dilakukan dengan alat ini sepenuhnya merupakan tanggung jawab pengguna. 
-
-**Gunakan dengan bijak dan etis!**
-
----
